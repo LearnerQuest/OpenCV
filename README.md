@@ -1,28 +1,30 @@
-# OpenCV
+✨ Handwritten Letters & Lines — Computer Vision Mini Projects ✨
+Welcome! 👋 This repository brings together two practical computer vision projects that combine classic OpenCV tricks with modern deep learning — all written in pure Python.
 
-This repository contains two simple computer vision projects built with OpenCV and TensorFlow/Keras:
+🟢 1️⃣ Line Detection & Tracing
+“Where there are edges, there are lines — let’s find them.”
 
-Line Detection & Tracing:
-A classic OpenCV pipeline that detects and highlights straight lines in any input image using edge detection and Hough Transform.
+A clean OpenCV pipeline that takes any image, finds its edges using Canny, then traces straight lines using Hough Transform. Great for learning how a computer “sees” structure in raw pixels.
 
-Handwritten Letter Recognition (A–Z):
-A Convolutional Neural Network (CNN) trained on the A–Z Handwritten Alphabet dataset to classify uppercase English letters. Includes a saved model and a test script for predicting letters from new handwritten images.
+🟢 2️⃣ Handwritten Letter Recognition (A–Z)
+“Teaching a machine to read your handwriting, one pixel at a time.”
 
-Main Concepts:
+A simple but powerful CNN trained on thousands of handwritten letters to recognize uppercase A–Z. Feed it a scribbled letter — get back the predicted character. It’s OCR, made easy.
 
-Image preprocessing
-Edge detection
-Hough line detection
-CNN-based image classification
-Model saving and inference
-OpenCV for real-world image input
+⚙️ What’s Inside
+✅ OpenCV for classic computer vision
+✅ TensorFlow/Keras for deep learning
+✅ A-Z dataset from Kaggle — real handwritten alphabets
+✅ Training script, saved model, test script
+✅ Neat examples and clear code
 
-This mini-project demonstrates basic computer vision tasks, combining classic OpenCV techniques with deep learning for handwritten character recognition.
+🚀 Why This Repo
+A perfect mini portfolio piece for computer vision fundamentals.
 
-Technologies:
-OpenCV • TensorFlow/Keras • NumPy • Pandas • scikit-learn
+Shows image preprocessing, line detection, edge finding, and character recognition in a single place.
 
-License: Open-source — feel free to use or extend for learning purposes.
+All open-source, fully documented — easy to adapt for your own experiments.
 
-
+🖋️ By [Aashi]
+Happy coding — and may your pixels always align! 💙✨
 
